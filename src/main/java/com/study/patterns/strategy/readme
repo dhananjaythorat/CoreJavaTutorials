@@ -1,0 +1,10 @@
+Intent : 	Strategy is a behavioral design pattern that lets you define a family of algorithms, 
+			put each of them into a separate class, and make their objects interchangeable.
+			
+
+Applicability :
+ 	1)	Use the Strategy pattern when you want to use different variants of an algorithm within an object 
+ 		and be able to switch from one algorithm to another during runtime.
+ 		
+ 	2)	Use the pattern when your class has a massive conditional operator that switches between 
+ 		different variants of the same algorithm.

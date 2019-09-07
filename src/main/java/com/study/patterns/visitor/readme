@@ -1,0 +1,23 @@
+Intent : 	Visitor is a behavioral design pattern that lets you separate algorithms 
+			from the objects on which they operate.
+			
+Visitor Pattern Benefits:
+
+	1) The benefit of this pattern is that if the logic of operation changes, 
+		then we need to make change only in the visitor implementation rather than doing it in all 
+		the item classes.
+
+	2) Another benefit is that adding a new item to the system is easy, it will require change 
+		only in visitor interface and implementation and existing item classes will not be affected.
+		
+	3) The pattern lets you make the primary classes of your app more focused on their main jobs
+	    by extracting all other behaviors into a set of visitor classes.
+	    
+	4) 	Use the Visitor when you need to perform an operation on all elements of a complex object 
+		structure (for example, an object tree).
+		
+	5) The classes defining the object structure rarely change, but you often want to define new 
+		operations over the structure. Changing the object structure classes requires redefining 
+		the interface to all visitors, which is potentially costly. 
+		If the object structure classes change often, then it's probably better to define the 
+		operations in those classes

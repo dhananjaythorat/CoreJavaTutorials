@@ -1,0 +1,13 @@
+Intent : 	Template Method is a behavioral design pattern that defines the skeleton of 
+			an algorithm in the superclass but lets subclasses override specific steps of 
+			the algorithm without changing its structure.
+			
+Pattern Benefits:
+
+	1) to implement the invariant parts of an algorithm once and leave it 
+		up to subclasses to implement the behavior that can vary.
+
+	2) Use the pattern when you have several classes that contain almost identical algorithms 
+		with some minor differences. As a result, you might need to modify all classes 
+		when the algorithm changes.
+		

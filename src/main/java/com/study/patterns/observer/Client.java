@@ -1,5 +1,6 @@
 package com.study.patterns.observer;
 
+//Spark Side
 public class Client {
 
 	public static void main(String[] args) {

@@ -1,0 +1,9 @@
+Intent : 	Facade is a structural design pattern that provides a simplified interface 
+			to a library, a framework, or any other complex set of classes.
+			
+Pattern Benefits:
+		
+			1) Use the Facade pattern when you need to have a limited but 
+				straightforward interface to a complex subsystem.
+				
+			2) Use the Facade when you want to structure a subsystem into layers.

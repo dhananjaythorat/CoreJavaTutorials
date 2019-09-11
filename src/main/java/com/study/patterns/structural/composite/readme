@@ -1,0 +1,8 @@
+Intent : Composite is a structural design pattern that lets you compose objects into tree structures and 
+		 then work with these structures as if they were individual objects.
+			
+Pattern Benefits:
+		
+			1) Use the pattern when you want the client code to treat both simple and complex elements uniformly.
+			
+			2) When we need to create a structure in a way that the objects in the structure has to be treated the same way.

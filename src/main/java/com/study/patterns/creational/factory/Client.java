@@ -1,6 +1,7 @@
-package com.study.patterns.behavioral.strategy;
+package com.study.patterns.creational.factory;
 
-import com.study.patterns.creational.factory.RuleExecutionStrategyFactory;
+import com.study.patterns.behavioral.strategy.RuleExecutionStrategy;
+import com.study.patterns.behavioral.strategy.RulesExecutionInfo;
 
 public class Client {
 

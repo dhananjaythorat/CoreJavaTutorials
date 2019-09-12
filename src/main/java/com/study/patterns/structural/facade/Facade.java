@@ -1,12 +1,12 @@
 package com.study.patterns.structural.facade;
 
 import com.study.patterns.behavioral.strategy.RuleExecutionStrategy;
-import com.study.patterns.behavioral.strategy.RuleExecutionStrategyFactory;
 import com.study.patterns.behavioral.strategy.RulesExecutionInfo;
 import com.study.patterns.behavioral.templatemethod.DQRuleExecutor;
 import com.study.patterns.behavioral.templatemethod.RuleExecutorTemplateMethod;
 import com.study.patterns.behavioral.templatemethod.RuleInfo;
 import com.study.patterns.behavioral.templatemethod.TrendRuleExecutor;
+import com.study.patterns.creational.factory.RuleExecutionStrategyFactory;
 
 public class Facade {
 
